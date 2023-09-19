@@ -12,7 +12,7 @@
   /* Styles for the menu items */
   .menu-item {
     
-    
+    cursor: pointer;
     padding: 10px 20px;
     margin-left: 20px;
     margin-right:20px;
@@ -58,4 +58,6 @@
     
   }
  
- 
+ .underline{
+  text-decoration: underline;
+ }

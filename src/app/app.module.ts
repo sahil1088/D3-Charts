@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { ChartsComponent } from './charts/charts.component';
+import { RadarChartComponent } from './radar-chart/radar-chart.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopMenuComponent,
-    ChartsComponent
+    ChartsComponent,
+    RadarChartComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

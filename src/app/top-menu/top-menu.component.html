@@ -13,7 +13,8 @@
       </button>
       <div class="menu-container">
         <div class="menu" #menu>
-          <div class="menu-item" *ngFor="let menuItem of menuItems">{{ menuItem }}</div>
+          <div class="menu-item" (click)="clickedOnMenu(menuItem)"
+           *ngFor="let menuItem of menuItems" ><span [ngClass]="menuChecked[menuItem]==true?'underline':''">{{ menuItem }}</span></div>
         </div>
       </div>
      
